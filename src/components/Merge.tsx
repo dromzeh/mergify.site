@@ -53,7 +53,7 @@ const Merge: React.FC<{
             for (const chunk of trackIdChunks) {
                 await spotifyApi.addTracksToPlaylist(
                     newPlaylist.id,
-                    chunk.map((id: any) => `spotify:track:${id}`)
+                    chunk.map((id) => `spotify:track:${id}`)
                 )
                 await new Promise((resolve) => setTimeout(resolve, 3000))
             }
