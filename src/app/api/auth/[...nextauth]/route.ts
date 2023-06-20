@@ -16,7 +16,6 @@ const handler = NextAuth({
     callbacks: {
         async jwt({ token, account }) {
             if (account) {
-                console.log('account', account)
                 token = Object.assign({}, token, {
                     access_token: account.access_token,
                 })

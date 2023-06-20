@@ -14,7 +14,6 @@ export default function Home() {
     const [searchQuery, setSearchQuery] = useState<string>('')
 
     const { data: session, status } = useSession()
-    console.log(session)
 
     const handleMergeClick = () => {
         setIsMergeVisible(true)
