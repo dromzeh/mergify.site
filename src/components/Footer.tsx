@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-2">
                 <Link
-                    href="https://github.com/dromzeh/mergify"
+                    href="https://github.com/dromzeh/mergify.site"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
