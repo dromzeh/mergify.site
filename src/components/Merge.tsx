@@ -160,8 +160,9 @@ const Merge: React.FC<{
                                     onClick={onCancel}
                                 >
                                     <Link
-                                        target="_blank"
                                         href={`https://open.spotify.com/playlist/${playlistId}`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         View on Spotify
                                     </Link>
